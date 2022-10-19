@@ -3,7 +3,7 @@ package tp3;
 public class Application {
 
 	public static void main(String[] args)
-	{ /*
+	{ 
 		Compte c1= new Compte(120.5) ;
 		Compte c2= new Compte(1850.5) ;
 		System.out.println(c1.affiche()) ;
@@ -18,8 +18,8 @@ public class Application {
 		{
 			System.out.println("non votre max est "+c1.getSolde()) ; ;
 		}
-		*/
-	    boolean teste ;  
+		
+	    	boolean teste ;  
 		Compte c3= new Compte(70) ;
 		Compte c4= new Compte(70) ;
 		c3=OperationsBancaires.creeCompte(20) ;
